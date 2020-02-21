@@ -6,14 +6,12 @@ stage('build')
 {
 steps{
 echo"building the code....."
-bat"mvn clean"
 }
 }
 stage('test')
 {
 steps{
 echo"testing the code....."
-bat"mvn test"
 }
 }
 }
